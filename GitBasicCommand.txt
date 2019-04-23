@@ -1,0 +1,36 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. create a folder "GitRepo" into local drive.
+2. Clone the GitHub project into your created folder "GitRepo".
+
+~~~~
+	. copy the github repo path.
+	. Open gitbash into "GitRepo" folder.
+	. Hit the clone command.
+
+command: git clone ?https://github.com/username/servletMVC-repo.git
+
+~~~~
+
+3. git init
+
+
+Commands: For adding or updating:
+
+1.   git config --global user.name "saahamad"
+2.   git config --global user.email "saahamad@redhat.com"
+3.   git add . /Firstproject
+4.   git commit -m "Adding"
+5.   git push origin head
+
+
+Command: To remove file or folder
+
+    git rm -r file/folder
+    git rm -r test.java
+
+    git add .
+    git commit -m "deleting"
+    git push origin head
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
